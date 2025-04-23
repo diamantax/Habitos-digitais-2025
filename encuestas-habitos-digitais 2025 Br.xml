@@ -1,0 +1,153 @@
+<Survey name="HabitosDigitaisBrasil2025" version="1.0">
+
+  <!-- P1: Faixa etária -->
+  <Question id="P1" type="single" required="true">
+    <Text>Qual a sua idade?</Text>
+    <Response id="1">Menos de 18 anos</Response>
+    <Response id="2">18 a 24 anos</Response>
+    <Response id="3">25 a 34 anos</Response>
+    <Response id="4">35 a 44 anos</Response>
+    <Response id="5">45 a 54 anos</Response>
+    <Response id="6">55 a 64 anos</Response>
+    <Response id="7">65 anos ou mais</Response>
+  </Question>
+
+  <!-- P2: Região -->
+  <Question id="P2" type="single" required="true">
+    <Text>Onde você mora?</Text>
+    <Response id="1">Região Norte</Response>
+    <Response id="2">Região Nordeste</Response>
+    <Response id="3">Região Centro-Oeste</Response>
+    <Response id="4">Região Sudeste</Response>
+    <Response id="5">Região Sul</Response>
+  </Question>
+
+  <!-- P3: Escolaridade -->
+  <Question id="P3" type="single" required="true">
+    <Text>Qual o seu nível de escolaridade?</Text>
+    <Response id="1">Ensino Fundamental</Response>
+    <Response id="2">Ensino Médio</Response>
+    <Response id="3">Ensino Superior incompleto</Response>
+    <Response id="4">Ensino Superior completo</Response>
+    <Response id="5">Pós-graduação ou mais</Response>
+  </Question>
+
+  <!-- P4: Frequência de acesso -->
+  <Question id="P4" type="single" required="true">
+    <Text>Com que frequência você acessa a internet?</Text>
+    <Response id="1">Várias vezes ao dia</Response>
+    <Response id="2">Uma vez por dia</Response>
+    <Response id="3">Algumas vezes por semana</Response>
+    <Response id="4">Raramente</Response>
+    <Response id="5">Nunca</Response>
+  </Question>
+
+  <!-- P5: Dispositivos (múltipla escolha) -->
+  <Question id="P5" type="multiple" maxResponses="6" required="true">
+    <Text>Quais dispositivos você usa para acessar a internet? (Pode escolher mais de um)</Text>
+    <Response id="1">Smartphone</Response>
+    <Response id="2">Notebook</Response>
+    <Response id="3">Computador de mesa (desktop)</Response>
+    <Response id="4">Tablet</Response>
+    <Response id="5">Smart TV</Response>
+    <Response id="6">Outro</Response>
+  </Question>
+
+<!-- P6: Dispositivo principal -->
+  <Question id="P6" type="single" required="true">
+    <Text>Qual é o principal dispositivo que você usa?</Text>
+    <Response id="1">Smartphone</Response>
+    <Response id="2">Notebook</Response>
+    <Response id="3">Desktop</Response>
+    <Response id="4">Tablet</Response>
+    <Response id="5">Smart TV</Response>
+  </Question>
+
+  <!-- P7: Plataformas digitais (múltipla escolha, até 5) -->
+  <Question id="P7" type="multiple" maxResponses="5" required="true">
+    <Text>Quais plataformas digitais você usa com mais frequência? (Pode escolher até 5)</Text>
+    <Response id="1">WhatsApp</Response>
+    <Response id="2">Instagram</Response>
+    <Response id="3">YouTube</Response>
+    <Response id="4">TikTok</Response>
+    <Response id="5">Facebook</Response>
+    <Response id="6">Twitter (X)</Response>
+    <Response id="7">LinkedIn</Response>
+    <Response id="8">Netflix</Response>
+    <Response id="9">Spotify</Response>
+    <Response id="10">Amazon Prime Video</Response>
+    <Response id="11">Google Search</Response>
+    <Response id="12">Outra(s)</Response>
+  </Question>
+
+  <!-- P8: Horas por dia na internet -->
+  <Question id="P8" type="single" required="true">
+    <Text>Quantas horas por dia você passa na internet, em média?</Text>
+    <Response id="1">Menos de 1 hora</Response>
+    <Response id="2">1 a 2 horas</Response>
+    <Response id="3">3 a 4 horas</Response>
+    <Response id="4">5 a 6 horas</Response>
+    <Response id="5">Mais de 6 horas</Response>
+  </Question>
+
+  <!-- P9: Formato de conteúdo consumido -->
+  <Question id="P9" type="single" required="true">
+    <Text>Você consome mais conteúdo em qual formato?</Text>
+    <Response id="1">Vídeo</Response>
+    <Response id="2">Texto (blogs, artigos, notícias)</Response>
+    <Response id="3">Imagens</Response>
+    <Response id="4">Áudio (podcasts, música)</Response>
+    <Response id="5">Jogos interativos</Response>
+  </Question>
+
+  <!-- P10: Compra online -->
+  <Question id="P10" type="single" required="true">
+    <Text>Você costuma realizar compras online?</Text>
+    <Response id="1">Sim</Response>
+    <Response id="2">Não</Response>
+  </Question>
+<!-- P11: Sites de compras online (múltipla escolha) -->
+  <Question id="P11" type="multiple" maxResponses="6" required="true">
+    <Text>Quais sites ou aplicativos você usa para compras online? (Pode escolher mais de um)</Text>
+    <Response id="1">Mercado Livre</Response>
+    <Response id="2">Amazon</Response>
+    <Response id="3">Shopee</Response>
+    <Response id="4">Americanas</Response>
+    <Response id="5">Magalu</Response>
+    <Response id="6">AliExpress</Response>
+    <Response id="7">Outro(s)</Response>
+  </Question>
+
+  <!-- P12: Segurança ao fornecer dados pessoais -->
+  <Question id="P12" type="single" required="true">
+    <Text>Você se sente seguro ao fornecer dados pessoais online?</Text>
+    <Response id="1">Sim</Response>
+    <Response id="2">Não</Response>
+    <Response id="3">Depende do site/aplicativo</Response>
+  </Question>
+
+  <!-- P13: Uso de serviços bancários online -->
+  <Question id="P13" type="single" required="true">
+    <Text>Você costuma usar serviços bancários online (internet banking, apps)?</Text>
+    <Response id="1">Sim</Response>
+    <Response id="2">Não</Response>
+  </Question>
+
+  <!-- P14: Interesse em sorteios/resultados da pesquisa -->
+  <Question id="P14" type="single" required="true">
+    <Text>Você gostaria de participar de sorteios ou receber os resultados da pesquisa?</Text>
+    <Response id="1">Sim (deixe seu e-mail no próximo campo)</Response>
+    <Response id="2">Não</Response>
+  </Question>
+
+  <!-- P15: E-mail para contato (opcional) -->
+  <Question id="P15" type="open" required="false">
+    <Text>Deixe seu e-mail para contato:</Text>
+  </Question>
+<!-- Redirecionamento para página de agradecimento -->
+  <EndOfSurvey>
+    <Redirect url="https://www.premioshábito.com/agradecimento" />
+  </EndOfSurvey>
+
+</Survey>
+
